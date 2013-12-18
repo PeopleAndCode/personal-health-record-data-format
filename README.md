@@ -7,7 +7,7 @@ This data struture should be considered in development.
 ````json
 {
   "user": {
-    "id": "object_id",
+    "id": "object_uid",
     "firstName": "John",
     "middleName": "Random",
     "lastName": "Doe",
@@ -17,28 +17,28 @@ This data struture should be considered in development.
     "birthdate": "1980/10/20",
     "illnesses": [
       {
-        "id": "object_id",
-        "illness_type_id": "object_id",
+        "id": "object_uid",
+        "illness_type_id": "object_uid",
         "startDate": "2013/12/20",
         "endDate": "2013/12/25",
         "createdAt": "2013/12/25",
         "updatedAt": "2013/12/25",
         "medicationsTaken": [
           {
-            "medication_id": "object_id",
+            "medication_id": "object_uid",
             "startDate": "2013/12/21",
             "endDate": "2013/12/25"
           }
         ],
         "versions": [
           {
-            "id": "object_id",
-            "illness_type_id": "object_id",
+            "id": "object_uid",
+            "illness_type_id": "object_uid",
             "startDate": "2013/12/20",
             "endDate": "2013/12/25",
             "medicationsTaken": [
               {
-                "medication_id": "object_id",
+                "medication_id": "object_uid",
                 "startDate": "2013/12/21",
                 "endDate": "2013/12/25"
               }
@@ -49,7 +49,7 @@ This data struture should be considered in development.
     ],
     "activities": [
       {
-        "id": "object_id",
+        "id": "object_uid",
         "type": "Bench Press",
         "date": "2013/12/20",
         "time": "20:30",
@@ -58,7 +58,7 @@ This data struture should be considered in development.
         "sets": "3"
       },
       {
-        "id": "object_id",
+        "id": "object_uid",
         "type": "Exercise Bike",
         "date": "2013/12/19",
         "time": "20:30",
@@ -70,12 +70,12 @@ This data struture should be considered in development.
     ],
     "conditions": [
       {
-        "condition_id": "object_id",
+        "condition_id": "object_uid",
         "startDate": "2010/1/3",
         "endDate": null,
         "medicationsTaken": [
           {
-            "medication_id": "object_id",
+            "medication_id": "object_uid",
             "datesTaken": [
               "2013/10/12",
               "2011/10/12"
@@ -86,32 +86,32 @@ This data struture should be considered in development.
     ],
     "currentMedications": [
       {
-        "medication_id": "object_id",
-        "medication_type_id": "object_id",
+        "medication_id": "object_uid",
+        "medication_type_id": "object_uid",
         "startDate": "2013/12/21",
         "condition_type": "illness or condition name",
-        "condition_id": "object_id"
+        "condition_id": "object_uid"
       }
     ],
     "medicationsTaken": [
       {
-        "medication_id": "object_id",
-        "medication_type_id": "object_id",
+        "medication_id": "object_uid",
+        "medication_type_id": "object_uid",
         "startDate": "2012/12/21",
         "endDate": "2012/12/25",
         "condition_type": "illness or condition name",
-        "condition_id": "object_id"
+        "condition_id": "object_uid"
       }
     ],
     "treatements": [
       {
-        "treatement_id": "object_id",
-        "treatment_type_id": "object_id",
+        "treatement_id": "object_uid",
+        "treatment_type_id": "object_uid",
         "treatement_name": "Phyiscal Therapy",
         "startDate": "2012/10/1",
         "endDate": "2012/12/3",
-        "provider": "object_id",
-        "activity_id": "object_id"
+        "provider": "object_uid",
+        "activity_id": "object_uid"
       }
     ]
   }
